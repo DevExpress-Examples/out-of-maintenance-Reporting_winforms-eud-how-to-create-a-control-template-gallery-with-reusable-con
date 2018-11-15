@@ -1,3 +1,13 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [ControlTemplateDragDropService.cs](./CS/ControlTemplateGallerySample/ControlTemplateGallery/ControlTemplateDragDropService.cs) (VB: [ControlTemplateDragDropService.vb](./VB/ControlTemplateGallerySample/ControlTemplateGallery/ControlTemplateDragDropService.vb))
+* [ControlTemplateStorage.cs](./CS/ControlTemplateGallerySample/ControlTemplateGallery/ControlTemplateStorage.cs) (VB: [ControlTemplateStorage.vb](./VB/ControlTemplateGallerySample/ControlTemplateGallery/ControlTemplateStorage.vb))
+* [ControlTemplateUserControl.cs](./CS/ControlTemplateGallerySample/ControlTemplateGallery/ControlTemplateUserControl.cs) (VB: [ControlTemplateUserControl.vb](./VB/ControlTemplateGallerySample/ControlTemplateGallery/ControlTemplateUserControl.vb))
+* [EditTemplateForm.cs](./CS/ControlTemplateGallerySample/ControlTemplateGallery/EditTemplateForm.cs) (VB: [EditTemplateForm.vb](./VB/ControlTemplateGallerySample/ControlTemplateGallery/EditTemplateForm.vb))
+* [ReportDesignToolEx.cs](./CS/ControlTemplateGallerySample/ControlTemplateGallery/ReportDesignToolEx.cs) (VB: [ReportDesignToolEx.vb](./VB/ControlTemplateGallerySample/ControlTemplateGallery/ReportDesignToolEx.vb))
+* **[Form1.cs](./CS/ControlTemplateGallerySample/Form1.cs) (VB: [Form1.vb](./VB/ControlTemplateGallerySample/Form1.vb))**
+<!-- default file list end -->
 # WinForms EUD - How to create a Control Template Gallery with reusable control sets
 
 
