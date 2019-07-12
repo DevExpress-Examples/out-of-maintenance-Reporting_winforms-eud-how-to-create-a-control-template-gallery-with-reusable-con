@@ -1,3 +1,8 @@
+<p></ br><b>With version 17.1, we introduced the Report Gallery out of the box. It lets you store report controls, data sources, layouts and styles, and keep them for later use. Click the following links for more details. <br>
+  <a href="https://www.youtube.com/watch?v=SEaEMVFoIAw">Video: Reporting: The Report Gallery</a> <br>
+  <a href="https://docs.devexpress.com/XtraReports/118624/Visual-Studio-Report-Designer/Dock-Panels-and-Designer-Options/Report-Gallery">Documentation: Report Gallery</a>
+</b></p></br></br></br>
+
 <!-- default file list -->
 *Files to look at*:
 
