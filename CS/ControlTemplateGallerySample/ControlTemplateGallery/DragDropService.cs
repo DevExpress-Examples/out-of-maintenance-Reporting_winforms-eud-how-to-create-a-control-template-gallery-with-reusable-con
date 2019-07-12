@@ -67,14 +67,15 @@ namespace ControlTemplateGallerySample {
             if(data != null) AddToContainerRecursive(data.Controls);
             base.HandleDragDrop(sender, e);
         }
+        public override void HandleDragOver(object sender, DragEventArgs e) {
+            base.HandleDragOver(sender, e);
+            e.Effect = DragDropEffects.Copy;
+        }
         void AddToContainerRecursive(IList controls) {
             foreach(XRControl item in controls) {
-                host.Container.Add(item);
+                Host.Container.Add(item);
                 AddToContainerRecursive(item.Controls);
             }
-        }
-        protected override void UpdateDragEffect(DragEventArgs e) {
-            e.Effect = DragDropEffects.Copy;
         }
     }
 }

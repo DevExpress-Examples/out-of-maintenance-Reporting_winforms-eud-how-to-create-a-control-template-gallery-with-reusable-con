@@ -68,21 +68,22 @@ Namespace ControlTemplateGallerySample
 		Public Sub New(ByVal host As IDesignerHost)
 			MyBase.New(host)
 		End Sub
-		Public Overrides Sub HandleDragDrop(ByVal sender As Object, ByVal e As DragEventArgs)
-			Dim data As DragDataObject = TryCast(e.Data.GetData(GetType(DragDataObject)), DragDataObject)
-			If data IsNot Nothing Then
-				AddToContainerRecursive(data.Controls)
-			End If
-			MyBase.HandleDragDrop(sender, e)
-		End Sub
-		Private Sub AddToContainerRecursive(ByVal controls As IList)
-			For Each item As XRControl In controls
-				host.Container.Add(item)
-				AddToContainerRecursive(item.Controls)
-			Next item
-		End Sub
-		Protected Overrides Sub UpdateDragEffect(ByVal e As DragEventArgs)
-			e.Effect = DragDropEffects.Copy
-		End Sub
-	End Class
+        Public Overrides Sub HandleDragDrop(ByVal sender As Object, ByVal e As DragEventArgs)
+            Dim data As DragDataObject = TryCast(e.Data.GetData(GetType(DragDataObject)), DragDataObject)
+            If data IsNot Nothing Then
+                AddToContainerRecursive(data.Controls)
+            End If
+            MyBase.HandleDragDrop(sender, e)
+        End Sub
+        Public Overrides Sub HandleDragOver(sender As Object, e As DragEventArgs)
+            MyBase.HandleDragOver(sender, e)
+            e.Effect = DragDropEffects.Copy
+        End Sub
+        Private Sub AddToContainerRecursive(ByVal controls As IList)
+            For Each item As XRControl In controls
+                host.Container.Add(item)
+                AddToContainerRecursive(item.Controls)
+            Next item
+        End Sub
+    End Class
 End Namespace
