@@ -73,7 +73,7 @@ namespace ControlTemplateGallerySample {
         }
         void AddToContainerRecursive(IList controls) {
             foreach(XRControl item in controls) {
-                Host.Container.Add(item);
+                host.Container.Add(item);
                 AddToContainerRecursive(item.Controls);
             }
         }
