@@ -1,3 +1,8 @@
+<!-- default badges list -->
+![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/128605039/17.1.3%2B)
+[![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T341218)
+[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
+<!-- default badges end -->
 <p></ br><b>With version 17.1, we introduced the Report Gallery out of the box. It lets you store report controls, data sources, layouts and styles, and keep them for later use. Click the following links for more details. <br>
   <a href="https://www.youtube.com/watch?v=SEaEMVFoIAw">Video: Reporting: The Report Gallery</a> <br>
   <a href="https://docs.devexpress.com/XtraReports/118624/Visual-Studio-Report-Designer/Dock-Panels-and-Designer-Options/Report-Gallery">Documentation: Report Gallery</a>
